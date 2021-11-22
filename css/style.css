@@ -57,7 +57,7 @@ a {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: all linear 0.3s;
+  transition: all linear 0.4s;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover::before {
   height: 100%;
@@ -71,7 +71,7 @@ a {
   bottom: 0;
   left: 0;
   z-index: -1;
-  transition: all linear 0.3s;
+  transition: all linear 0.4s;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover::after {
   width: 100%;
