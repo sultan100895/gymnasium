@@ -1,0 +1,157 @@
+/* ===== For Extra Small Device =====  */
+/* ===== navbar css starts ===== */
+@media (max-width: 575px) {
+  .navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0px 10px !important;
+  }
+  .navbar .navbar-brand {
+    position: static !important;
+    margin-left: 20px !important;
+  }
+  .navbar .navbar-toggler {
+    background: #e23e38 !important;
+    border-color: #e23e38 !important;
+  }
+  .navbar .navbar-toggler span {
+    color: #fff;
+  }
+  .navbar-nav .nav-item {
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* ===== navbar css ends ===== */
+  /* ///////////////////////////// */
+  /* ===== banner css starts ===== */
+  #banner .bg1 h4::before {
+    display: none;
+  }
+  #banner .bg1 h4::after {
+    display: none;
+  }
+  #banner .bg1 h1::before {
+    display: none;
+  }
+  #banner .bg1 h1::after {
+    display: none;
+  }
+  #banner .bg1 p::before {
+    display: none;
+  }
+  #banner .bg1 p::after {
+    display: none;
+  }
+  .banner-item .banner-text {
+    text-align: center;
+  }
+  /* ===== banner css ends ===== */
+  /* //////////////////////////// */
+  /* ===== about css starts ===== */
+  #about {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #about .about-text p {
+    text-align: justify;
+  }
+  /* ===== about css ends ===== */
+  /* ///////////////////////////////// */
+  /* ===== gallery css starts ===== */
+  #gallery {
+    padding-bottom: 20px !important;
+  }
+  #gallery .gallery-bg .gallery-item {
+    margin-bottom: 0px;
+  }
+  #gallery .gl-6 {
+    margin-bottom: 30px !important;
+  }
+  /* ===== gallery css ends ===== */
+  /* ////////////////////////////// */
+  /* ===== team css starts ===== */
+  #team header {
+    padding-bottom: 20px;
+  }
+  /* ===== team css ends ===== */
+  /* ///////////////////////////// */
+  /* ===== testimonial css ends ===== */
+  #testimonial .testimonial-item {
+    padding-left: 20px;
+  }
+  #testimonial .testimonial-detail h5 {
+    margin-top: 10px;
+  }
+  /* ===== testimonial css ends ===== */
+  /* /////////////////////////////////// */
+  /* ===== membership css starts ===== */
+  .membership-heading {
+    padding-top: 30px !important;
+  }
+  .membership-bg .member-item {
+    padding-top: 20px;
+  }
+  /* ===== membership css ends ===== */
+  /* //////////////////////////////// */
+  /* ===== counter css starts ===== */
+  .counter-bg {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* ===== counter css ends ===== */
+  /* ////////////////////////////// */
+  /* ===== routine css starts ===== */
+  #routine {
+    padding-bottom: 30px;
+  }
+  #routine .nav-tabs .nav-item {
+    width: 100%;
+    position: relative;
+  }
+  #routine .nav-tabs .nav-item::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #353535;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  #routine .nav-tabs .nav-item .nav-link {
+    line-height: 30px;
+  }
+  #routine .tab-content ul li {
+    width: 100%;
+  }
+  /* ===== routine css ends ===== */
+  /* ////////////////////////////// */
+  /* ===== brand css starts ===== */
+  #brand .brand-item img {
+    width: 100%;
+  }
+  /* ===== brand css ends ===== */
+  /* //////////////////////////// */
+  /* ===== footer css starts ===== */
+  .footer-logo img {
+    margin-left: 80px;
+  }
+  #footer .footer-item ul li {
+    padding-left: 30px;
+  }
+  #footer .footer-item {
+    text-align: justify !important;
+    padding-right: 20px;
+  }
+  .footer-item .social-1 {
+    margin-left: 52px !important;
+    margin-bottom: 10px;
+  }
+  #footer .footer-text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  /* ===== footer css ends ===== */
+}
+/* =================================== */
