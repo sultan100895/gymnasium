@@ -85,7 +85,7 @@ $(function(){
           slidesToScroll: 1,
           infinite: true,
           dots: false,
-          arrows: false,
+          arrows: true,
           autoplay: true
         }
       },
