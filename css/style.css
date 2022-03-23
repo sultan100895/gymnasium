@@ -918,6 +918,10 @@ a {
   height: 100%;
   background: rgba(0, 0, 0, 0.85);
 }
+#footer .footer-overlay .footer-logo {
+  margin: 0 auto;
+  width: 134px;
+}
 #footer .footer-overlay .footer-logo img {
   padding-top: 30px;
   padding-bottom: 60px;
