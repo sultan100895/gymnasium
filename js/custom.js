@@ -94,8 +94,9 @@ $(function(){
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          centerMode: false,
           dots: false,
-          arrows: false,
+          arrows: true,
           autoplay: true
 
         }

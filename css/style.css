@@ -848,6 +848,7 @@ a {
 } */
 #brand .brand-item img {
   width: 95%;
+  margin: 0 auto;
   cursor: pointer;
   transition: all linear 0.4s;
 }
