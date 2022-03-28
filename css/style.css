@@ -107,13 +107,13 @@ a {
 /* ////////////////////////////// */
 /* ===== banner css starts ===== */
 #banner .bg1 {
-  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
+  /* background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover; */
 }
 #banner .bg2 {
-  background: url("../images/gymnasium-bg-02.jpg") no-repeat center / cover;
+  /* background: url("../images/gymnasium-bg-02.jpg") no-repeat center / cover; */
 }
 #banner .bg3 {
-  background: url("../images/gymnasium-bg-03.jpg") no-repeat center / cover;
+  /* background: url("../images/gymnasium-bg-03.jpg") no-repeat center / cover; */
 }
 #banner .banner-item {
   position: relative;
