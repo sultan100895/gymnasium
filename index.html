@@ -48,15 +48,75 @@
             <a class="nav-link text-uppercase text-white" href="#">contact</a>
           </li>
         </ul>
-        <a href="#" class="btn btn-danger">sign up</a>
+        <a href="#" class="btn btn-sm btn-danger text-uppercase" data-bs-toggle="modal" data-bs-target="#staticBackdrop">modal</a>
+        <a href="#"><i class="fas fa-bars canvas-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></i></a>
       </div>
     </div>
-</nav>
+  </nav>
 <!-- ===== navbar ends ===== -->
+<!-- ===== modal starts ===== -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <form>
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign Up Form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-4">
+                <img src="images/gallery-1.png" class="img-fluid w-100" alt="">
+              </div>
+              <div class="col-lg-8">
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+              </div>
+            </div>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- ===== modal ends ===== -->
+<!-- ////////////////////////////// -->
+<!-- ===== offcanvas starts ===== -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Choose a Color</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="ps-0 d-flex justify-content-evenly">
+      <li class="default"></li>
+      <li class="greensea"></li>
+      <li class="carrot"></li>
+      <li class="midnightblue"></li>
+      <li class="alizarin"></li>
+      <li class="sunflower"></li>
+    </ul>
+  </div>
+</div>
+<!-- ===== offcanvas ends ===== -->
 <!-- ===== banner starts ===== -->
 <section id="banner">
   <div class="banner-slider">
-    <div class="banner-item bg1">
+    <div class="banner-item bg1"> 
       <div class="container">
         <div class="row">
           <div class="col-lg-6 m-auto">
@@ -1146,9 +1206,6 @@
     </div>
   </div>
 </section>
-
-
-
 <!-- ===== footer ends ===== -->
 
 

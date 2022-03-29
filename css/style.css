@@ -107,13 +107,13 @@ a {
 /* ////////////////////////////// */
 /* ===== banner css starts ===== */
 #banner .bg1 {
-  /* background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover; */
+  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
 }
 #banner .bg2 {
-  /* background: url("../images/gymnasium-bg-02.jpg") no-repeat center / cover; */
+  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
 }
 #banner .bg3 {
-  /* background: url("../images/gymnasium-bg-03.jpg") no-repeat center / cover; */
+  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
 }
 #banner .banner-item {
   position: relative;
@@ -388,7 +388,7 @@ a {
   font-size: 30px;
 }
 /* ===== gallery css ends ===== */
-//////////////////////////////////
+/* ////////////////////////////////// */
 /* ===== team css starts ===== */
 #team {
   padding-bottom: 50px;
@@ -610,12 +610,6 @@ a {
   line-height: 24px;
   margin-bottom: 0;
 }
-.membership-bg .member-item {
-  /* padding: 30px 30px 0 0; */
-}
-.membership-bg .member-item:last-of-type {
-  /* padding-right: 0; */
-}
 .membership-bg .member-item .box .box-header {
   background: #ddd;
   transition: all 0.4s linear;
@@ -628,7 +622,7 @@ a {
   text-transform: uppercase;
   line-height: 15px;
   padding: 20px 0;
-  transition: all 0.4s linear;
+  transition: all linear 0.4s;
 }
 .membership-bg .member-item .box .box-header:hover {
   background: #e23e38;
@@ -880,9 +874,6 @@ a {
 #brand .right-arrow:hover {
   color: var(--brand-cl);
 }
-#brand .slick-center {
-  /* box-shadow: 0px 0px 10px black; */
-}
 #brand .slick-center img {
   /* transform: scale(0.9); */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
@@ -1033,5 +1024,63 @@ a {
   color: var(--brand-cl);
   text-transform: uppercase;
 }
-
 /* ===== footer css ends ===== */
+/* //////////////////////////// */
+/* ===== modal css starts ===== */
+.modal{
+  z-index: 999999;
+  background: #d1292393;
+}
+.modal-header h5{
+  font-family: var(--pfont);
+  font-size: 14px;
+  color: var(--hcl1);
+  font-weight: 700;
+}
+/* ===== modal css ends ===== */
+/* ===== modal css ends ===== */
+.offcanvas {
+	z-index: 99999;
+}
+.canvas-toggler{
+  padding: 7px 10px;
+  background: var(--brand-cl);
+  color: #fff;
+  border-radius: 5px;
+  margin-left: 5px;
+  transition: all linear 0.4s;
+}
+.canvas-toggler:hover{
+  background: #a52935;
+}
+.offcanvas-header h5{
+  font-family: var(--pfont);
+  font-size: 14px;
+  color: var(--hcl1);
+  font-weight: 700;
+}
+.offcanvas-body ul li{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.offcanvas-body ul li.default{
+  background: var(--brand-cl);
+}
+.offcanvas-body ul li.greensea{
+  background: #16a085;
+}
+.offcanvas-body ul li.carrot{
+  background: #e67e22;
+}
+.offcanvas-body ul li.midnightblue{
+  background: #2c3e50;
+}
+.offcanvas-body ul li.alizarin{
+  background: #e74c3c;
+}
+.offcanvas-body ul li.sunflower{
+  background: #f1c40f;
+}
+/* ===== modal css ends ===== */

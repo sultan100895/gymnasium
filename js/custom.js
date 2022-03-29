@@ -1,9 +1,11 @@
 $(function(){
+
+  
   //for slider
   $('.banner-slider').slick({
     arrows:false, //arrow remove korar jonno
     dots:true,
-    autoplay:true,
+    autoplay: false,
     fade: true,
     autoplaySpeed: 3000,
   });
