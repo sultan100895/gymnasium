@@ -110,10 +110,10 @@ a {
   background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
 }
 #banner .bg2 {
-  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
+  background: url("../images/gymnasium-bg-02.jpg") no-repeat center / cover;
 }
 #banner .bg3 {
-  background: url("../images/gymnasium-bg-01.jpg") no-repeat center / cover;
+  background: url("../images/gymnasium-bg-03.jpg") no-repeat center / cover;
 }
 #banner .banner-item {
   position: relative;
@@ -774,7 +774,11 @@ a {
   margin-bottom: 30px;
 }
 #routine .nav-tabs .nav-item {
-  width: 16.6%;
+  width: 16.2%;
+  margin-left: 5px;
+}
+#routine .nav-tabs .nav-item:first-child {
+  margin-left: 0;
 }
 #routine .nav-tabs .nav-item .nav-link {
   border: none;
@@ -1027,11 +1031,11 @@ a {
 /* ===== footer css ends ===== */
 /* //////////////////////////// */
 /* ===== modal css starts ===== */
-.modal{
+.modal {
   z-index: 999999;
   background: #d1292393;
 }
-.modal-header h5{
+.modal-header h5 {
   font-family: var(--pfont);
   font-size: 14px;
   color: var(--hcl1);
@@ -1040,9 +1044,9 @@ a {
 /* ===== modal css ends ===== */
 /* ===== modal css ends ===== */
 .offcanvas {
-	z-index: 99999;
+  z-index: 99999;
 }
-.canvas-toggler{
+.canvas-toggler {
   padding: 7px 10px;
   background: var(--brand-cl);
   color: #fff;
@@ -1050,37 +1054,229 @@ a {
   margin-left: 5px;
   transition: all linear 0.4s;
 }
-.canvas-toggler:hover{
+.canvas-toggler:hover {
   background: #a52935;
 }
-.offcanvas-header h5{
+.offcanvas-header h5 {
   font-family: var(--pfont);
   font-size: 14px;
   color: var(--hcl1);
   font-weight: 700;
 }
-.offcanvas-body ul li{
+.offcanvas-body ul li {
   height: 50px;
   width: 50px;
   border-radius: 50%;
   cursor: pointer;
 }
-.offcanvas-body ul li.default{
+.offcanvas-body ul li.default {
   background: var(--brand-cl);
 }
-.offcanvas-body ul li.greensea{
+.offcanvas-body ul li.greensea {
   background: #16a085;
 }
-.offcanvas-body ul li.carrot{
+.offcanvas-body ul li.carrot {
   background: #e67e22;
 }
-.offcanvas-body ul li.midnightblue{
-  background: #2c3e50;
+.offcanvas-body ul li.midnightblue {
+  background: #706fd3;
 }
-.offcanvas-body ul li.alizarin{
+.offcanvas-body ul li.alizarin {
   background: #e74c3c;
 }
-.offcanvas-body ul li.sunflower{
+.offcanvas-body ul li.sunflower {
   background: #f1c40f;
 }
 /* ===== modal css ends ===== */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ===== color css starts ===== */
+.greensea #banner .bg1 h4::before,
+.greensea #banner .bg1 h4::after,
+.greensea #banner .bg1 h1::before,
+.greensea #banner .bg1 h1::after,
+.greensea #banner .bg1 p::before,
+.greensea #banner .bg1 p::after,
+.greensea .navbar .navbar-nav .nav-item .nav-link::after,
+.greensea #banner .banner-item a::before,
+.greensea #banner .slick-dots li.slick-active,
+.greensea .canvas-toggler,
+.greensea #about .about-image figure .about-overlay a i,
+.greensea #testimonial .slick-dots li.slick-active,
+.greensea .membership-bg .member-item .box .box-header:hover,
+.greensea .membership-bg .member-item .box .featurs:hover,
+.greensea #routine .nav-tabs .nav-item .nav-link.active,
+.greensea #routine .tab-content ul li.active,
+.greensea #footer .footer-contact .footer-social::after {
+  background: #16a085;
+}
+.greensea #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.greensea #team .team-overlay {
+  background: rgba(22, 160, 132, 0.8);
+}
+.greensea #banner .bg1 h1,
+.greensea #banner .bg2 h1,
+.greensea #banner .bg3 h1,
+.greensea #testimonial .testimonial-bg .testimonial-item i,
+.greensea #footer .footer-contact .icon i,
+.greensea #footer .footer-text p a {
+  color: #16a085;
+}
+.greensea #banner .banner-item a:hover,
+.greensea #banner .slick-dots li.slick-active,
+.greensea #testimonial .slick-dots li.slick-active,
+.greensea #footer .footer-contact .footer-social i:hover {
+  border-color: #16a085;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.carrot #banner .bg1 h4::before,
+.carrot #banner .bg1 h4::after,
+.carrot #banner .bg1 h1::before,
+.carrot #banner .bg1 h1::after,
+.carrot #banner .bg1 p::before,
+.carrot #banner .bg1 p::after,
+.carrot .navbar .navbar-nav .nav-item .nav-link::after,
+.carrot #banner .banner-item a::before,
+.carrot #banner .slick-dots li.slick-active,
+.carrot .canvas-toggler,
+.carrot #about .about-image figure .about-overlay a i,
+.carrot #testimonial .slick-dots li.slick-active,
+.carrot .membership-bg .member-item .box .box-header:hover,
+.carrot .membership-bg .member-item .box .featurs:hover,
+.carrot #routine .nav-tabs .nav-item .nav-link.active,
+.carrot #routine .tab-content ul li.active,
+.carrot #footer .footer-contact .footer-social::after {
+  background: #e67e22;
+}
+.carrot #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.carrot #team .team-overlay {
+  background: rgba(230, 125, 34, 0.8);
+}
+.carrot #banner .bg1 h1,
+.carrot #banner .bg2 h1,
+.carrot #banner .bg3 h1,
+.carrot #testimonial .testimonial-bg .testimonial-item i,
+.carrot #footer .footer-contact .icon i,
+.carrot #footer .footer-text p a {
+  color: #e67e22;
+}
+.carrot #banner .banner-item a:hover,
+.carrot #banner .slick-dots li.slick-active,
+.carrot #testimonial .slick-dots li.slick-active,
+.carrot #footer .footer-contact .footer-social i:hover {
+  border-color: #e67e22;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.midnightblue #banner .bg1 h4::before,
+.midnightblue #banner .bg1 h4::after,
+.midnightblue #banner .bg1 h1::before,
+.midnightblue #banner .bg1 h1::after,
+.midnightblue #banner .bg1 p::before,
+.midnightblue #banner .bg1 p::after,
+.midnightblue .navbar .navbar-nav .nav-item .nav-link::after,
+.midnightblue #banner .banner-item a::before,
+.midnightblue #banner .slick-dots li.slick-active,
+.midnightblue .canvas-toggler,
+.midnightblue #about .about-image figure .about-overlay a i,
+.midnightblue #testimonial .slick-dots li.slick-active,
+.midnightblue .membership-bg .member-item .box .box-header:hover,
+.midnightblue .membership-bg .member-item .box .featurs:hover,
+.midnightblue #routine .nav-tabs .nav-item .nav-link.active,
+.midnightblue #routine .tab-content ul li.active,
+.midnightblue #footer .footer-contact .footer-social::after {
+  background: #706fd3;
+}
+.midnightblue #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.midnightblue #team .team-overlay {
+  background: rgba(113, 111, 211, 0.8);
+}
+.midnightblue #banner .bg1 h1,
+.midnightblue #banner .bg2 h1,
+.midnightblue #banner .bg3 h1,
+.midnightblue #testimonial .testimonial-bg .testimonial-item i,
+.midnightblue #footer .footer-contact .icon i,
+.midnightblue #footer .footer-text p a {
+  color: #706fd3;
+}
+.midnightblue #banner .banner-item a:hover,
+.midnightblue #banner .slick-dots li.slick-active,
+.midnightblue #testimonial .slick-dots li.slick-active,
+.midnightblue #footer .footer-contact .footer-social i:hover {
+  border-color: #706fd3;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.alizarin #banner .bg1 h4::before,
+.alizarin #banner .bg1 h4::after,
+.alizarin #banner .bg1 h1::before,
+.alizarin #banner .bg1 h1::after,
+.alizarin #banner .bg1 p::before,
+.alizarin #banner .bg1 p::after,
+.alizarin .navbar .navbar-nav .nav-item .nav-link::after,
+.alizarin #banner .banner-item a::before,
+.alizarin #banner .slick-dots li.slick-active,
+.alizarin .canvas-toggler,
+.alizarin #about .about-image figure .about-overlay a i,
+.alizarin #testimonial .slick-dots li.slick-active,
+.alizarin .membership-bg .member-item .box .box-header:hover,
+.alizarin .membership-bg .member-item .box .featurs:hover,
+.alizarin #routine .nav-tabs .nav-item .nav-link.active,
+.alizarin #routine .tab-content ul li.active,
+.alizarin #footer .footer-contact .footer-social::after {
+  background: #e74c3c;
+}
+.alizarin #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.alizarin #team .team-overlay {
+  background: rgba(231, 77, 60, 0.8);
+}
+.alizarin #banner .bg1 h1,
+.alizarin #banner .bg2 h1,
+.alizarin #banner .bg3 h1,
+.alizarin #testimonial .testimonial-bg .testimonial-item i,
+.alizarin #footer .footer-contact .icon i,
+.alizarin #footer .footer-text p a {
+  color: #e74c3c;
+}
+.alizarin #banner .banner-item a:hover,
+.alizarin #banner .slick-dots li.slick-active,
+.alizarin #testimonial .slick-dots li.slick-active,
+.alizarin #footer .footer-contact .footer-social i:hover {
+  border-color: #e74c3c;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////// */
+.sunflower #banner .bg1 h4::before,
+.sunflower #banner .bg1 h4::after,
+.sunflower #banner .bg1 h1::before,
+.sunflower #banner .bg1 h1::after,
+.sunflower #banner .bg1 p::before,
+.sunflower #banner .bg1 p::after,
+.sunflower .navbar .navbar-nav .nav-item .nav-link::after,
+.sunflower #banner .banner-item a::before,
+.sunflower #banner .slick-dots li.slick-active,
+.sunflower .canvas-toggler,
+.sunflower #about .about-image figure .about-overlay a i,
+.sunflower #testimonial .slick-dots li.slick-active,
+.sunflower .membership-bg .member-item .box .box-header:hover,
+.sunflower .membership-bg .member-item .box .featurs:hover,
+.sunflower #routine .nav-tabs .nav-item .nav-link.active,
+.sunflower #routine .tab-content ul li.active,
+.sunflower #footer .footer-contact .footer-social::after {
+  background: #f1c40f;
+}
+.sunflower #gallery .gallery-bg .gallery-item figure .gl-overlay,
+.sunflower #team .team-overlay {
+  background: rgba(241, 196, 15, 0.8);
+}
+.sunflower #banner .bg1 h1,
+.sunflower #banner .bg2 h1,
+.sunflower #banner .bg3 h1,
+.sunflower #testimonial .testimonial-bg .testimonial-item i,
+.sunflower #footer .footer-contact .icon i,
+.sunflower #footer .footer-text p a {
+  color: #f1c40f;
+}
+.sunflower #banner .banner-item a:hover,
+.sunflower #banner .slick-dots li.slick-active,
+.sunflower #testimonial .slick-dots li.slick-active,
+.sunflower #footer .footer-contact .footer-social i:hover {
+  border-color: #f1c40f;
+}
+/* ===== color css ends ===== */

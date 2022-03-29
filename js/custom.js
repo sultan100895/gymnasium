@@ -1,6 +1,30 @@
 $(function(){
 
+  // for color change
+  $(".default").click(function(){
+    $("body").removeClass("carrot midnightblue alizarin sunflower greensea");
+  });
   
+  $(".greensea").click(function(){
+    $("body").addClass("greensea").removeClass("carrot midnightblue alizarin sunflower");
+  });
+
+  $(".carrot").click(function(){
+    $("body").addClass("carrot").removeClass("greensea midnightblue alizarin sunflower");
+  });
+
+  $(".midnightblue").click(function(){
+    $("body").addClass("midnightblue").removeClass("carrot greensea alizarin sunflower");
+  });
+
+  $(".alizarin").click(function(){
+    $("body").addClass("alizarin").removeClass("carrot midnightblue greensea sunflower");
+  });
+
+  $(".sunflower").click(function(){
+    $("body").addClass("sunflower").removeClass("carrot midnightblue alizarin greensea");
+  });
+
   //for slider
   $('.banner-slider').slick({
     arrows:false, //arrow remove korar jonno
