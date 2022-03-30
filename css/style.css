@@ -1082,7 +1082,7 @@ a {
   z-index: 99999999;
 }
 .preload img{
-  width: 100%;
+  transform: scale(.6);
 }
 .offcanvas-body ul li.default {
   background: var(--brand-cl);
