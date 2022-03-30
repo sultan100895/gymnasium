@@ -4,7 +4,11 @@ $(function(){
   $(".preload").delay(2000).fadeOut();
 
   // for color change
-  $(".default").click(function(){
+  // $(".default").click(function(){
+  //   $("body").removeClass("carrot midnightblue alizarin sunflower greensea");
+  // });
+  // even binding style
+  $(".default").on('click', function(){
     $("body").removeClass("carrot midnightblue alizarin sunflower greensea");
   });
   
