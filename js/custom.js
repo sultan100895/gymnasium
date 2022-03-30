@@ -1,5 +1,8 @@
 $(function(){
 
+  // for preload
+  $(".preload").delay(2000).fadeOut();
+
   // for color change
   $(".default").click(function(){
     $("body").removeClass("carrot midnightblue alizarin sunflower greensea");

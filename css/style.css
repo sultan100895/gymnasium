@@ -1069,6 +1069,18 @@ a {
   border-radius: 50%;
   cursor: pointer;
 }
+.preload{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: var(--brand-cl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999;
+}
 .offcanvas-body ul li.default {
   background: var(--brand-cl);
 }
