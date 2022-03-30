@@ -1081,6 +1081,9 @@ a {
   justify-content: center;
   z-index: 99999999;
 }
+.preload img{
+  width: 100%;
+}
 .offcanvas-body ul li.default {
   background: var(--brand-cl);
 }
